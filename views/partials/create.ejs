@@ -1,0 +1,17 @@
+  <!-- main body -->
+  <div class="edit-blog">
+    <form action="/submit" method="POST">
+      <div class="h-label"><label> Heading</label></div>
+      <div class="h-input">
+        <textarea name="text-heading" class="heading-field" placeholder="Enter a heading" required></textarea>
+      </div>
+      <div class="b-label"><label> Body</label></div>
+      <div class="b-input">
+        <textarea name="text-content" class="content-field" placeholder="Enter body for blog" required></textarea>
+      </div>
+      <div class="buttons">
+        <input type="submit" value="Create" class="create-button" />
+        <a href="/home" class="delete-button">Cancel</a>
+      </div>
+    </form>
+  </div>

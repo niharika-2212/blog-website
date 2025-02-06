@@ -1,0 +1,23 @@
+<% if(posts.length===0){ %>
+  <div class="empty-text">
+    Create a post
+  </div>
+  <% } else{%>
+    <% for(let i=0 ; i<posts.length ; i++) { %>
+      <div class="blog-post">
+        <div class="post-header">
+          <h1 class="post-h1">
+            <%= posts[i][0] %>
+          </h1>
+          <div>
+            <a href="/edit-post?id=<%= i %>" class="create-button">Edit</a>
+            <a href="/delete?id=<%= i %>" class="delete-button">Delete</a>
+          </div>
+        </div>
+        <hr />
+        <div>
+          <%= posts[i][1] %>
+        </div>
+      </div>
+      <% }%>
+        <% } %>

@@ -1,0 +1,140 @@
+*{
+  margin: 0;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+/* header */
+.header{
+  background-color: #27445D;
+  color: #EFE9D5;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pages{
+  display: flex;
+  gap: 30px;
+}
+
+a{
+  color: #EFE9D5;
+  text-decoration: none;
+  padding: 10px;
+}
+
+a:hover{
+  color: black;
+  background-color: #EFE9D5;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* edit */
+h1{
+  font-size: 30px;
+}
+
+.buttons{
+  margin-top: 10px;
+  display: flex;
+  gap: 20px;
+}
+
+.edit-blog{
+  padding: 20px;
+  width: 500px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.edit-blog h1{
+  margin-bottom: 30px;
+}
+
+.edit-blog .h-label, .b-label{
+  margin-bottom: 10px;
+}
+
+.edit-blog .h-input,.b-input{
+  margin-bottom: 20px;
+}
+
+.heading-field{
+  width: 100%;
+  height: 70px;
+  padding: 12px 15px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: none;
+  font-size: 14px;
+}
+
+.content-field{
+  font-size: 14px;
+  width: 100%;
+  height: 300px;
+  padding: 12px 15px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: none;
+}
+
+.create-button{
+  background-color: #497D74;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+}
+
+.delete-button{
+  background-color: #BE3144;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+
+}
+
+/* home */
+.blog-post{
+  width: 500px;
+  background-color: #EFE9D5;
+  margin: auto;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.empty-text{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  color: grey;
+}
+
+hr{
+  margin-bottom: 20px;
+  margin-top: 10px;
+  border: 1px solid #27445D;
+}
+
+/* edit */
+.post-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post-header button:hover{
+  background-color: #71BBB2;
+  color: black;
+}
+

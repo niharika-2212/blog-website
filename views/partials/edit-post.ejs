@@ -1,0 +1,20 @@
+  <!-- main body -->
+  <div class="edit-blog">
+    <h1>Create your blog</h1>
+    <form action="/submit?id=<%=i%>" method="POST">
+      <div class="h-label"><label> Heading</label></div>
+      <div class="h-input">
+        <textarea name="text-heading" class="heading-field" placeholder="Enter a heading"
+          required><%=posts[i][0] %></textarea>
+      </div>
+      <div class="b-label"><label> Body</label></div>
+      <div class="b-input">
+        <textarea name="text-content" class="content-field" placeholder="Enter body for blog"
+          required><%=posts[i][1]%></textarea>
+      </div>
+      <div class="buttons">
+        <input type="submit" value="Edit" class="create-button" />
+        <a href="/edit" class="delete-button">Cancel</a>
+      </div>
+    </form>
+  </div>
