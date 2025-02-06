@@ -23,7 +23,7 @@ Make sure you have [Node.js](https://nodejs.org/) installed.
 
 1. Clone this repository:
    ```
-   git clone https://github.com/your-username/blog-website.git
+   git clone https://github.com/niharika-2212/blog-website.git
    ```
 2. move to the project directory
    ```
