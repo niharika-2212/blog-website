@@ -40,5 +40,3 @@ Make sure you have [Node.js](https://nodejs.org/) installed.
 5. you can access the application at `http://localhost:3000`
 
 
-## Live Demo
-Access the website here: [Demo]()
